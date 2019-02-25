@@ -1,0 +1,175 @@
+.icon.icon_hover_fade{
+	background-position: 500% 500%;
+}
+
+
+.icon,
+.icon_hover_fade:after,
+.icon_hover_fade:before{
+		/*background size*/
+	-webkit-background-size: 300% 300%;
+	-moz-background-size: 300% 300%;
+	-o-background-size: 300% 300%;
+	background-size: 300% 300%;
+	/*image rendering*/
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -o-crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: optimize-contrast;
+    -ms-interpolation-mode: nearest-neighbor;
+    image-rendering: crisp-edges;
+}
+
+.icon_hover_fade{ position: relative; }
+
+
+
+.icon_hover_fade.absolute_default,
+.icon_hover_fade.absolute,
+.icon_hover_fade.full_absolute,
+.icon_hover_fade.center_absolute,
+.icon_hover_fade.center_left_absolute,
+.icon_hover_fade.center_right_absolute,
+.icon_hover_fade.center_top_absolute,
+.icon_hover_fade.center_bottom_absolute,
+.icon_hover_fade.center_lr_absolute,
+.icon_hover_fade.center_bt_absolute{
+	position: absolute;
+}
+
+
+
+/*bug no svg*/
+.icon.no_svg {
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+	/*only svg*/
+	/*image rendering*/
+    image-rendering: -moz-auto;
+    image-rendering: -o-auto;
+    image-rendering: -webkit-auto;
+    -ms-interpolation-mode: auto;
+    image-rendering: auto;
+}
+
+
+.icon_hover_fade:not(.no_svg):after,
+.icon_hover_fade:not(.no_svg):before{
+	background-image: inherit;
+	content: "";
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	/*transition*/
+	-moz-transition: all 0.3s ease;
+	-webkit-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+.icon_hover_fade_all:hover .icon_hover_fade:before,
+.icon_hover_fade:hover:before,
+.icon_hover_fade:after{
+	filter: alpha(opacity=0);
+	-moz-opacity: 0;
+	opacity: 0;
+	visibility: hidden;
+}
+.icon_hover_fade_all:hover .icon_hover_fade:after,
+.icon_hover_fade:hover:after{
+	filter: alpha(opacity=100);
+	-moz-opacity: 1;
+	opacity: 1;
+	visibility: visible;
+}
+
+/*default colors*/
+.icon_hover_fade:after{ background-position: 0% 50%; }
+.icon,
+.icon_hover_fade:before{ background-position: 100% 50%; }
+
+
+
+
+
+
+/*positcion colors*/
+/*gray*/
+.pos_gray_hover:after,
+.pos_gray:before,
+.pos_gray{ background-position: 100% 50%; }
+/*blue*/
+.pos_blue_hover:after,
+.pos_blue:before,
+.pos_blue{ background-position: 100% 0%; }
+/*gray*/
+.pos_orange_hover:after,
+.pos_orange:before,
+.pos_orange{ background-position: 0% 0%; }
+/*gray*/
+.pos_green_hover:after,
+.pos_green:before,
+.pos_green{ background-position: 50% 0%; }
+/*turkey*/
+.pos_turkey_hover:after,
+.pos_turkey:before,
+.pos_turkey{ background-position: 0% 50%; }
+/*white*/
+.pos_white_hover:after,
+.pos_white:before,
+.pos_white{ background-position: 50% 50%; }
+/*purple*/
+.pos_purple_hover:after,
+.pos_purple:before,
+.pos_purple{ background-position: 0% 100%; }
+/*brown*/
+.pos_brown_hover:after,
+.pos_brown:before,
+.pos_brown{ background-position: 50% 100%; }
+/*black*/
+.pos_black_hover:after,
+.pos_black:before,
+.pos_black{ background-position: 100% 100%; }
+
+
+
+/*special position*/
+/*gray*/
+.pos_gray_hover:after,
+.pos_gray:before,
+.pos_gray{ background-position: 100% 50%; }
+/*full-color black white*/
+.pos_bw_color_hover:after,
+.pos_bw_color:before,
+.pos_bw_color{ background-position: 100% 0%; }
+/*full-color white*/
+.pos_white_color_hover:after,
+.pos_white_color:before,
+.pos_white_color{ background-position: 0% 0%; }
+/*full-color*/
+.pos_original_color_hover:after,
+.pos_original_color:before,
+.pos_original_color{ background-position: 50% 0%; }
+/*turkey*/
+.pos_turkey_hover:after,
+.pos_turkey:before,
+.pos_turkey{ background-position: 0% 50%; }
+/*white*/
+.pos_white_hover:after,
+.pos_white:before,
+.pos_white{ background-position: 50% 50%; }
+/*degrade 1*/
+.pos_degrade1_out_hover:after,
+.pos_degrade1_out:before,
+.pos_degrade1_out{ background-position: 0% 100%; }
+/*degrade 2*/
+.pos_degrade2_out_hover:after,
+.pos_degrade2_out:before,
+.pos_degrade2_out{ background-position: 50% 100%; }
+/*black*/
+.pos_black_hover:after,
+.pos_black:before,
+.pos_black{ background-position: 100% 100%; }

@@ -1,0 +1,97 @@
+/*inputs*/
+/*complete*/
+input.valid:not([type]), input.valid:not([type]):focus, input.valid[type=text]:not(.browser-default), input.valid[type=text]:not(.browser-default):focus, input.valid[type=password]:not(.browser-default), input.valid[type=password]:not(.browser-default):focus, input.valid[type=email]:not(.browser-default), input.valid[type=email]:not(.browser-default):focus, input.valid[type=url]:not(.browser-default), input.valid[type=url]:not(.browser-default):focus, input.valid[type=time]:not(.browser-default), input.valid[type=time]:not(.browser-default):focus, input.valid[type=date]:not(.browser-default), input.valid[type=date]:not(.browser-default):focus, input.valid[type=datetime]:not(.browser-default), input.valid[type=datetime]:not(.browser-default):focus, input.valid[type=datetime-local]:not(.browser-default), input.valid[type=datetime-local]:not(.browser-default):focus, input.valid[type=tel]:not(.browser-default), input.valid[type=tel]:not(.browser-default):focus, input.valid[type=number]:not(.browser-default), input.valid[type=number]:not(.browser-default):focus, input.valid[type=search]:not(.browser-default), input.valid[type=search]:not(.browser-default):focus, textarea.materialize-textarea.valid, textarea.materialize-textarea.valid:focus, .select-wrapper.valid > input.select-dropdown,
+/*focus field*/
+input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):focus:not([readonly]), input[type=password]:not(.browser-default):focus:not([readonly]), input[type=email]:not(.browser-default):focus:not([readonly]), input[type=url]:not(.browser-default):focus:not([readonly]), input[type=time]:not(.browser-default):focus:not([readonly]), input[type=date]:not(.browser-default):focus:not([readonly]), input[type=datetime]:not(.browser-default):focus:not([readonly]), input[type=datetime-local]:not(.browser-default):focus:not([readonly]), input[type=tel]:not(.browser-default):focus:not([readonly]), input[type=number]:not(.browser-default):focus:not([readonly]), input[type=search]:not(.browser-default):focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]){
+    border-bottom-color: #4aa3fd;
+}
+/*icon input*/
+label.active ~ .icon_input label,
+label.active ~ .icon_input,
+/*label*/
+input:not([type]):focus:not([readonly]) + label, input[type=text]:not(.browser-default):focus:not([readonly]) + label, input[type=password]:not(.browser-default):focus:not([readonly]) + label, input[type=email]:not(.browser-default):focus:not([readonly]) + label, input[type=url]:not(.browser-default):focus:not([readonly]) + label, input[type=time]:not(.browser-default):focus:not([readonly]) + label, input[type=date]:not(.browser-default):focus:not([readonly]) + label, input[type=datetime]:not(.browser-default):focus:not([readonly]) + label, input[type=datetime-local]:not(.browser-default):focus:not([readonly]) + label, input[type=tel]:not(.browser-default):focus:not([readonly]) + label, input[type=number]:not(.browser-default):focus:not([readonly]) + label, input[type=search]:not(.browser-default):focus:not([readonly]) + label, textarea.materialize-textarea:focus:not([readonly]) + label{
+	color: #4aa3fd;
+}
+
+
+
+
+
+/*select*/
+/*focus*/
+.select-wrapper input.select-dropdown:focus{
+	border-bottom-color: #4aa3fd;
+}
+
+
+
+
+
+
+
+/*checkbox*/
+[type="checkbox"] + span:not(.lever):before, [type="checkbox"]:not(.filled-in) + span:not(.lever):after{
+	border-color: #b4b4b4;
+}
+/*checked*/
+[type="checkbox"]:checked + span:not(.lever):before{
+    border-right-color: #4aa3fd;
+    border-bottom-color: #4aa3fd;
+}
+
+
+
+
+
+
+
+
+/*radios*/
+[type="radio"]:not(:checked) + span:before, [type="radio"]:not(:checked) + span:after{
+	border-color: #b4b4b4;
+}
+/*checked*/
+[type="radio"]:checked + span:after, [type="radio"].with-gap:checked + span:before, [type="radio"].with-gap:checked + span:after{
+    border-color: #4aa3fd;
+}
+[type="radio"]:checked + span:after, [type="radio"].with-gap:checked + span:after{
+	background-color: #4aa3fd;
+}
+
+
+
+/*tabs*/
+.tabs .indicator{
+	background: #4aa3fd;
+}
+
+.tabs .tab a:focus, .tabs .tab a:focus.active{
+	background-color: transparent;
+}
+
+
+
+
+
+
+
+/*side nav*/
+.sidenav{
+	border-color: #dcdcdc;
+}
+
+/*overlay color*/
+.sidenav-overlay{
+	background-color: rgba(255,255,255,0.7);
+}
+
+
+
+
+
+
+
+/*modal*/
+.modal-overlay{
+	background: #fff;
+}
