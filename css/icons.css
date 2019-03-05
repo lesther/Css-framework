@@ -137,10 +137,6 @@
 
 
 /*special position*/
-/*gray*/
-.pos_gray_hover:after,
-.pos_gray:before,
-.pos_gray{ background-position: 100% 50%; }
 /*full-color black white*/
 .pos_bw_color_hover:after,
 .pos_bw_color:before,
@@ -153,14 +149,6 @@
 .pos_original_color_hover:after,
 .pos_original_color:before,
 .pos_original_color{ background-position: 50% 0%; }
-/*turkey*/
-.pos_turkey_hover:after,
-.pos_turkey:before,
-.pos_turkey{ background-position: 0% 50%; }
-/*white*/
-.pos_white_hover:after,
-.pos_white:before,
-.pos_white{ background-position: 50% 50%; }
 /*degrade 1*/
 .pos_degrade1_out_hover:after,
 .pos_degrade1_out:before,
@@ -169,7 +157,3 @@
 .pos_degrade2_out_hover:after,
 .pos_degrade2_out:before,
 .pos_degrade2_out{ background-position: 50% 100%; }
-/*black*/
-.pos_black_hover:after,
-.pos_black:before,
-.pos_black{ background-position: 100% 100%; }

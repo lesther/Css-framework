@@ -55,9 +55,9 @@ input.no_border[type=text]:not(.browser-default):focus:not([readonly]),
    -o-transform: tranlslateY(-50%) !important;
     transform: translateY(-50%) !important;
 	z-index: 10003 !important;
-	-moz-box-shadow:    0rem 0rem 10rem rgba(0,0,0,0.3);
-	-webkit-box-shadow: 0rem 0rem 10rem rgba(0,0,0,0.3);
-	box-shadow:         0rem 0rem 10rem rgba(0,0,0,0.3);
+	-moz-box-shadow:    0 0 15rem 0rem rgba(0, 0, 0, 0.15);
+	-webkit-box-shadow: 0 0 15rem 0rem rgba(0, 0, 0, 0.15);
+	box-shadow:         0 0 15rem 0rem rgba(0, 0, 0, 0.15);
 }
 .modal.center_modal + .modal-overlay{
 	z-index: 10002 !important;
@@ -127,16 +127,22 @@ input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):
     width: 0;
 }
 
-
+.select-dropdown [type="checkbox"] + span:not(.lever) {
+    height: 25px;
+    width: auto;
+}
+.select-dropdown [type="checkbox"] + span:not(.lever):before, .select-dropdown [type="checkbox"]:not(.filled-in) + span:not(.lever):after {
+    margin-top: 3px;
+}
 
 
 
 
 /*radius*/
-[type="radio"] + span:before, [type="radio"] + span:after{
-	width: 13px;
-	height: 13px;
-	margin: 0;
+[type="radio"] + span:before, [type="radio"] + span:after {
+    width: 13px;
+    height: 13px;
+    margin: 0;
 }
 [type="radio"]:not(:checked) + span:before, [type="radio"]:not(:checked) + span:after,
 [type="radio"]:checked + span:after, [type="radio"].with-gap:checked + span:before, [type="radio"].with-gap:checked + span:after{
