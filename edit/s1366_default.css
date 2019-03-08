@@ -672,6 +672,17 @@
 .cards_mar_4p5_s1366{ -webkit-column-gap:4.5rem; -moz-column-gap:4.5rem; column-gap:4.5rem; }
 .cards_mar_5_s1366{ -webkit-column-gap:5rem; -moz-column-gap:5rem; column-gap:5rem; }
 
+.cards_mar_05_s1366 > *{ padding-top: 0.5rem; padding-bottom: 0.5rem; }
+.cards_mar_1_s1366 > *{ padding-top: 1rem; padding-bottom: 1rem; }
+.cards_mar_1p5_s1366 > *{ padding-top: 1.5rem; padding-bottom: 1.5rem; }
+.cards_mar_2_s1366 > *{ padding-top: 2rem; padding-bottom: 2rem; }
+.cards_mar_2p5_s1366 > *{ padding-top: 2.5rem; padding-bottom: 2.5rem; }
+.cards_mar_3_s1366 > *{ padding-top: 3rem; padding-bottom: 3rem; }
+.cards_mar_3p5_s1366 > *{ padding-top: 3.5rem; padding-bottom: 3.5rem; }
+.cards_mar_4_s1366 > *{ padding-top: 4rem; padding-bottom: 4rem; }
+.cards_mar_4p5_s1366 > *{ padding-top: 4.5rem; padding-bottom: 4.5rem; }
+.cards_mar_5_s1366 > *{ padding-top: 5rem; padding-bottom: 5rem; }
+
 .cards_column_1_s1366{ -webkit-column-count: 1; -moz-column-count: 1; column-count: 1; }
 .cards_column_2_s1366{ -webkit-column-count: 2; -moz-column-count: 2; column-count: 2; }
 .cards_column_3_s1366{ -webkit-column-count: 3; -moz-column-count: 3; column-count: 3; }
@@ -682,3 +693,26 @@
 .cards_column_8_s1366{ -webkit-column-count: 8; -moz-column-count: 8; column-count: 8; }
 .cards_column_9_s1366{ -webkit-column-count: 9; -moz-column-count: 9; column-count: 9; }
 .cards_column_10_s1366{ -webkit-column-count: 10; -moz-column-count: 10; column-count: 10; }
+
+
+.cards_column_w10_s1366{ column-width: 10rem; }
+.cards_column_w11_s1366{ column-width: 11rem; }
+.cards_column_w12_s1366{ column-width: 12rem; }
+.cards_column_w13_s1366{ column-width: 13rem; }
+.cards_column_w14_s1366{ column-width: 14rem; }
+.cards_column_w15_s1366{ column-width: 15rem; }
+.cards_column_w16_s1366{ column-width: 16rem; }
+.cards_column_w17_s1366{ column-width: 17rem; }
+.cards_column_w18_s1366{ column-width: 18rem; }
+.cards_column_w19_s1366{ column-width: 19rem; }
+.cards_column_w20_s1366{ column-width: 20rem; }
+.cards_column_w21_s1366{ column-width: 21rem; }
+.cards_column_w22_s1366{ column-width: 22rem; }
+.cards_column_w23_s1366{ column-width: 23rem; }
+.cards_column_w24_s1366{ column-width: 24rem; }
+.cards_column_w25_s1366{ column-width: 25rem; }
+.cards_column_w30_s1366{ column-width: 30rem; }
+.cards_column_w35_s1366{ column-width: 35rem; }
+.cards_column_w40_s1366{ column-width: 40rem; }
+.cards_column_w45_s1366{ column-width: 45rem; }
+.cards_column_w50_s1366{ column-width: 50rem; }
