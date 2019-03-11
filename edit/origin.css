@@ -63,3 +63,8 @@ html, body{
 
 /*touch*/
 button,input,select{  -ms-touch-action: manipulation; touch-action: manipulation; }
+
+/*ignore*/
+.ignore_all, .ignore_all *{
+    all:initial
+}
