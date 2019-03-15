@@ -1,11 +1,11 @@
 /*display*/
 /*screens*/
-.inline_divs > .only_700,
-.column_container > .only_700,
-.inline.only_700{ display: inline-block; }
-.only_700{ display: block; }
-.column_container > .to_700,
-.to_700{ display: none; }
+.inline_divs > .only_hd,
+.column_container > .only_hd,
+.inline.only_hd{ display: inline-block; }
+.only_hd{ display: block; }
+.column_container > .to_hd,
+.to_hd{ display: none; }
 
 
 
@@ -715,3 +715,65 @@
 .cards_column_w40_shd{ column-width: 40rem; }
 .cards_column_w45_shd{ column-width: 45rem; }
 .cards_column_w50_shd{ column-width: 50rem; }
+
+
+/*font size*/
+.column_container > .fs_0_shd, .fs_0_shd{ font-size: 0rem; }
+.column_container > .fs_06_shd, .fs_06_shd{ font-size: 0.6rem; }
+.column_container > .fs_07_shd, .fs_07_shd{ font-size: 0.7rem; }
+.column_container > .fs_08_shd, .fs_08_shd{ font-size: 0.8rem; }
+.column_container > .fs_09_shd, .fs_09_shd{ font-size: 0.9rem; }
+.column_container > .fs_1_shd, .fs_1_shd{ font-size: 1rem; }
+.column_container > .fs_11_shd, .fs_11_shd{ font-size: 1.1rem; }
+.column_container > .fs_12_shd, .fs_12_shd{ font-size: 1.2rem; }
+.column_container > .fs_13_shd, .fs_13_shd{ font-size: 1.3rem; }
+.column_container > .fs_14_shd, .fs_14_shd{ font-size: 1.4rem; }
+.column_container > .fs_15_shd, .fs_15_shd{ font-size: 1.5rem; }
+.column_container > .fs_2_shd, .fs_2_shd{ font-size: 2rem; }
+.column_container > .fs_25_shd, .fs_25_shd{ font-size: 2.5rem; }
+.column_container > .fs_3_shd, .fs_3_shd{ font-size: 3rem; }
+.column_container > .fs_35_shd, .fs_35_shd{ font-size: 3.5rem; }
+.column_container > .fs_4_shd, .fs_4_shd{ font-size: 4rem; }
+.column_container > .fs_45_shd, .fs_45_shd{ font-size: 4.5rem; }
+.column_container > .fs_5_shd, .fs_5_shd{ font-size: 5rem; }
+.column_container > .fs_55_shd, .fs_55_shd{ font-size: 5.5rem; }
+.column_container > .fs_6_shd, .fs_6_shd{ font-size: 6rem; }
+.column_container > .fs_65_shd, .fs_65_shd{ font-size: 6.5rem; }
+.column_container > .fs_7_shd, .fs_7_shd{ font-size: 7rem; }
+.column_container > .fs_75_shd, .fs_75_shd{ font-size: 7.5rem; }
+.column_container > .fs_8_shd, .fs_8_shd{ font-size: 8rem; }
+.column_container > .fs_85_shd, .fs_85_shd{ font-size: 8.5rem; }
+.column_container > .fs_9_shd, .fs_9_shd{ font-size: 9rem; }
+.column_container > .fs_95_shd, .fs_95_shd{ font-size: 9.5rem; }
+.column_container > .fs_10_shd, .fs_10_shd{ font-size: 10rem; }
+
+
+/*line-height*/
+.lh_normal_shd{ line-height: normal; }
+.lh_07_shd{ line-height: 0.7rem; }
+.lh_06_shd{ line-height: 0.6rem; }
+.lh_08_shd{ line-height: 0.8rem; }
+.lh_09_shd{ line-height: 0.9rem; }
+.lh_1_shd{ line-height: 1rem; }
+.lh_11_shd{ line-height: 1.1rem; }
+.lh_12_shd{ line-height: 1.2rem; }
+.lh_13_shd{ line-height: 1.3rem; }
+.lh_14_shd{ line-height: 1.4rem; }
+.lh_15_shd{ line-height: 1.5rem; }
+.lh_2_shd{ line-height: 2rem; }
+.lh_25_shd{ line-height: 2.5rem; }
+.lh_3_shd{ line-height: 3rem; }
+.lh_35_shd{ line-height: 3.5rem; }
+.lh_4_shd{ line-height: 4rem; }
+.lh_45_shd{ line-height: 4.5rem; }
+.lh_5_shd{ line-height: 5rem; }
+.lh_55_shd{ line-height: 5.5rem; }
+.lh_6_shd{ line-height: 6rem; }
+.lh_65_shd{ line-height: 6.5rem; }
+.lh_7_shd{ line-height: 7rem; }
+.lh_75_shd{ line-height: 7.5rem; }
+.lh_8_shd{ line-height: 8rem; }
+.lh_85_shd{ line-height: 8.5rem; }
+.lh_9_shd{ line-height: 9rem; }
+.lh_95_shd{ line-height: 9.5rem; }
+.lh_10_shd{ line-height: 10rem; }

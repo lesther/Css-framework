@@ -81,6 +81,15 @@ ol.list_p_outside{ list-style-position: outside; }
 
 /*positions*/
 
+/*initial*/
+.p_initial{ position: initial; }
+
+/*static*/
+.p_static{ position: static; }
+
+/*sticky*/
+.p_sticky{ position: sticky; }
+
 /*relative*/
 .relative{ position: relative; }
 
@@ -347,7 +356,6 @@ ol.list_p_outside{ list-style-position: outside; }
 .lh_08{ line-height: 0.8rem; }
 .lh_09{ line-height: 0.9rem; }
 .lh_1{ line-height: 1rem; }
-/*titles*/
 .lh_11{ line-height: 1.1rem; }
 .lh_12{ line-height: 1.2rem; }
 .lh_13{ line-height: 1.3rem; }
@@ -1179,7 +1187,17 @@ ol.list_p_outside{ list-style-position: outside; }
     white-space: nowrap;
     text-overflow: ellipsis;
 }
-.break_word{ word-break: break-all; word-break: break-word; }
+.break_word{
+    word-break: break-all; word-break: break-word;
+}
+.break_word_dash{
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
+}
 /*break all words*/
 .break_all{ word-break: break-all; }
 .keep_all{ word-break: keep-all; }

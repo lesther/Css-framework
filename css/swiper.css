@@ -74,7 +74,7 @@
   transition-property: transform;
   transition-property: transform, -webkit-transform;
 }
-.swiper-invisible-blank-slide {
+.swiper-slide-invisible-blank{
   visibility: hidden;
 }
 /* Auto Height */

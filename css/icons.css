@@ -40,7 +40,7 @@
 
 
 /*bug no svg*/
-.icon.no_svg {
+.icon.default_format {
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
@@ -55,8 +55,8 @@
 }
 
 
-.icon_hover_fade:not(.no_svg):after,
-.icon_hover_fade:not(.no_svg):before{
+.icon_hover_fade:not(.default_format):after,
+.icon_hover_fade:not(.default_format):before{
 	background-image: inherit;
 	content: "";
 	width: 100%;
@@ -105,11 +105,11 @@
 .pos_blue_hover:after,
 .pos_blue:before,
 .pos_blue{ background-position: 100% 0%; }
-/*gray*/
+/*orange*/
 .pos_orange_hover:after,
 .pos_orange:before,
 .pos_orange{ background-position: 0% 0%; }
-/*gray*/
+/*green*/
 .pos_green_hover:after,
 .pos_green:before,
 .pos_green{ background-position: 50% 0%; }
