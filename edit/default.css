@@ -103,6 +103,12 @@ ol.list_p_outside{ list-style-position: outside; }
 .full_absolute{ position: absolute; height: 100%; width: 100%; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
 
 /*fixed*/
+*[class*=fixed]{
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility:    hidden;
+    -ms-backface-visibility:     hidden;
+    backface-visibility:         hidden;
+}
 .fixed_issue{
     -webkit-backface-visibility: hidden;
     -moz-backface-visibility:    hidden;
@@ -298,8 +304,11 @@ ol.list_p_outside{ list-style-position: outside; }
 
 /*hidden*/
 .hide{ display: none; }
+/*visibility*/
 .visibility_hide,
 .visibility_hide_hover_all:hover .visibility_hide_hover,
+.visibility_hide_active_all.selected .visibility_hide_active,
+.visibility_hide_active_all.active .visibility_hide_active,
 .visibility_hide_hover:hover{
     visibility: hidden;
     filter: alpha(opacity=0);
@@ -308,15 +317,14 @@ ol.list_p_outside{ list-style-position: outside; }
 }
 .visibility_show,
 .visibility_show_hover_all:hover .visibility_show_hover,
+.visibility_show_active_all.selected .visibility_show_active,
+.visibility_show_active_all.active .visibility_show_active,
 .visibility_show_hover:hover{
     visibility: visible;
     filter: alpha(opacity=100);
     -moz-opacity: 1;
     opacity: 1;
 }
-
-
-
 
 
 /*font size*/
@@ -931,28 +939,47 @@ ol.list_p_outside{ list-style-position: outside; }
 
 .w5p{ width: 5%; }
 .w10p{ width: 10%; }
+.w15p{ width: 15%; }
 .w20p{ width: 20%; }
+.w25p{ width: 25%; }
 .w30p{ width: 30%; }
+.w35p{ width: 35%; }
 .w33p{ width: 33.33%; }
 .w40p{ width: 40%; }
+.w45p{ width: 45%; }
 .w50p{ width: 50%; }
+.w55p{ width: 55%; }
 .w60p{ width: 60%; }
+.w65p{ width: 65%; }
 .w70p{ width: 70%; }
+.w75p{ width: 75%; }
 .w80p{ width: 80%; }
+.w85p{ width: 85%; }
 .w90p{ width: 90%; }
+.w95p{ width: 95%; }
 .w100p{ width: 100%; }
 
 /*height*/
 .h5p{ height: 5%; }
 .h10p{ height: 10%; }
+.h15p{ height: 15%; }
 .h20p{ height: 20%; }
+.h25p{ height: 25%; }
 .h30p{ height: 30%; }
+.h35p{ height: 35%; }
+.h33p{ height: 33.33%; }
 .h40p{ height: 40%; }
+.h45p{ height: 45%; }
 .h50p{ height: 50%; }
+.h55p{ height: 55%; }
 .h60p{ height: 60%; }
+.h65p{ height: 65%; }
 .h70p{ height: 70%; }
+.h75p{ height: 75%; }
 .h80p{ height: 80%; }
+.h85p{ height: 85%; }
 .h90p{ height: 90%; }
+.h95p{ height: 95%; }
 .h100p{ height: 100%; }
 
 
@@ -1043,6 +1070,8 @@ ol.list_p_outside{ list-style-position: outside; }
 .w100p-80{ width: calc(100% - 80rem); }
 .w100p-90{ width: calc(100% - 90rem); }
 .w100p-100{ width: calc(100% - 100rem); }
+/*special*/
+.w100p-1px{ width: calc(100% - 1px); }
 /*height*/
 .h100p-5{ height: calc(100% - 5rem); }
 .h100p-10{ height: calc(100% - 10rem); }
@@ -1059,7 +1088,8 @@ ol.list_p_outside{ list-style-position: outside; }
 .h100p-80{ height: calc(100% - 80rem); }
 .h100p-90{ height: calc(100% - 90rem); }
 .h100p-100{ height: calc(100% - 100rem); }
-
+/*special*/
+.h100p-1px{ height: calc(100% - 1px); }
 
 /*max*/
 /*height*/
@@ -1190,13 +1220,15 @@ ol.list_p_outside{ list-style-position: outside; }
 .break_word{
     word-break: break-all; word-break: break-word;
 }
-.break_word_dash{
-    word-wrap: break-word;
-    overflow-wrap: break-word;
-
-    -webkit-hyphens: auto;
-    -moz-hyphens: auto;
-    hyphens: auto;
+.break_word_dash {
+ -ms-word-break: break-all;
+     word-break: break-all;
+     /* Non standard for webkit */
+     word-break: break-word;
+-webkit-hyphens: auto;
+   -moz-hyphens: auto;
+    -ms-hyphens: auto;
+        hyphens: auto;
 }
 /*break all words*/
 .break_all{ word-break: break-all; }
@@ -1562,4 +1594,21 @@ html.full_h100p ,html.full_h100p body{ height: 100%; }
 .table_nowrap td.ws_nowrap,
 .ws_nowrap {
    white-space: nowrap;
+}
+
+
+/*rotate*/
+/*rotate*/
+.rotate_180,
+.rotate_180_active_all.active .rotate_180_active,
+.rotate_180_active.active,
+.rotate_180_active_all.selected .rotate_180_active,
+.rotate_180_active.selected,
+.rotate_180_hover_all:hover .rotate_180_hover,
+.rotate_180_hover:hover{
+    /*rotation*/
+    -webkit-transform: rotate(-180deg);
+    -moz-transform: rotate(-180deg);
+    -ms-transform: rotate(-180deg);
+    -o-transform: rotate(-180deg);
 }
