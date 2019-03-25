@@ -463,6 +463,8 @@ ol.list_p_outside{ list-style-position: outside; }
 .object_bl { object-position: 0  100%; }
 .object_tl { object-position: 0  0; }
 .object_tr { object-position: 100%  0; }
+/*object_fit.js*/
+.img_cover_container > img{ object-fit: cover; }
 
 /*fixed background*/
 .bck_fixed{ background-attachment: fixed; }
