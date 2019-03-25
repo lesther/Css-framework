@@ -103,7 +103,7 @@ ol.list_p_outside{ list-style-position: outside; }
 .full_absolute{ position: absolute; height: 100%; width: 100%; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
 
 /*fixed*/
-*[class*=fixed]{
+*[class*=fixed]:not(.bck_fixed){
     -webkit-backface-visibility: hidden;
     -moz-backface-visibility:    hidden;
     -ms-backface-visibility:     hidden;
@@ -138,6 +138,15 @@ ol.list_p_outside{ list-style-position: outside; }
 .fixed_bl{ left: 0; bottom: 0;}
 .absolute_br,
 .fixed_br{ right: 0; bottom: 0;}
+
+
+.center_left_fixed{ position: fixed; top:0; bottom:0; left:0; right:auto; margin: auto; }
+.center_right_fixed{ position: fixed; top:0; bottom:0; left:auto; right:0; margin: auto; }
+.center_top_fixed{ position: fixed; top:0; bottom:auto; left:0; right:0; margin: auto; }
+.center_bottom_fixed{ position: fixed; top:auto; bottom:0; left:0; right:0; margin: auto; }
+.center_rl_fixed,.center_lr_fixed{ position: fixed; left:0; right:0; margin: auto; }
+.center_tb_fixed,.center_bt_fixed{ position: fixed; top:0; bottom:0; margin: auto; }
+
 
 /*position*/
 .top_0{ top: 0; }
@@ -275,6 +284,9 @@ ol.list_p_outside{ list-style-position: outside; }
 .center{ top:0; bottom:0; left:0; right:0; margin: auto; }
 .center_left{ top:0; bottom:0; left:0; right:auto; margin: auto; }
 .center_right{ top:0; bottom:0; left:auto; right:0; margin: auto; }
+.center_top{ top:auto; bottom:0; left:0; right:0; margin: auto; }
+.center_bottomp{ top:0; bottom:auto; left:0; right:0; margin: auto; }
+.center_center{ top:0; bottom:0; left:0; right:0; margin: auto; }
 
 /*center align vertical*/
 .midd_container{ display: table; width: 100%;}
