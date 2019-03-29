@@ -51,12 +51,17 @@
 
 
 
+/*pagination*/
+[aria-label*=slide]:focus{
+  outline: 0;
+}
+
 
 
 
 /*special nav*/
 /*1 nav*/
-.swiper-pagination-bullets-dynamic{ overflow: visible; }
+/*.swiper-pagination-bullets-dynamic{ overflow: visible; }*/
 .swiper-pagination-bullet-active, .swiper-pagination-bullet-active-main{ background: #31b1cd; }
 .news_nav .swiper-pagination-bullet-active-main:before{
   content: "";
@@ -102,6 +107,9 @@
 .swiper-pagination-bullets{
   width: 4px;
   height: 4px;
+}
+.swiper-pagination-bullets.swiper-pagination-bullets-dynamic{
+  height: 8px;
 }
 
 
