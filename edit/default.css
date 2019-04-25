@@ -285,8 +285,15 @@ ol.list_p_outside{ list-style-position: outside; }
 .center_left{ top:0; bottom:0; left:0; right:auto; margin: auto; }
 .center_right{ top:0; bottom:0; left:auto; right:0; margin: auto; }
 .center_top{ top:auto; bottom:0; left:0; right:0; margin: auto; }
-.center_bottomp{ top:0; bottom:auto; left:0; right:0; margin: auto; }
+.center_bottom{ top:0; bottom:auto; left:0; right:0; margin: auto; }
 .center_center{ top:0; bottom:0; left:0; right:0; margin: auto; }
+
+/*flex*/
+.center_flex {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
 
 /*center align vertical*/
 .midd_container{ display: table; width: 100%;}
@@ -312,6 +319,8 @@ ol.list_p_outside{ list-style-position: outside; }
 .d_table{ display: table; }
 /*table-cell*/
 .d_table_cell{ display: table-cell; }
+/*flex*/
+.d_flex{ display: flex; }
 
 
 /*hidden*/
