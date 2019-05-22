@@ -10,7 +10,7 @@ button{
 }
 
 button:focus,
-a:focus, a:active{ border: 0; outline: 0; }
+a.btn:focus, a.btn:active{ border: 0; outline: 0; }
 
 button::-moz-focus-inner{ border: 0; outline: 0; }
 input::-moz-focus-inner{ border: 0; outline: 0; }
@@ -38,7 +38,10 @@ body{ /*overflow: scroll;*/ overflow-x: hidden; }
 textarea { resize: vertical; }
 
 /*images*/
-img{ image-rendering: crisp-edges; }
+img{
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-tap-highlight-color: transparent;
+}
 
 /*text rendering*/
 html, body{

@@ -454,13 +454,6 @@ ol.list_p_outside{ list-style-position: outside; }
     background-size: cover;
 }
 .bck_100,.bck_cover{
-    image-rendering: -moz-crisp-edges;
-    image-rendering: -o-crisp-edges;
-    image-rendering: -webkit-optimize-contrast;
-    image-rendering: optimize-contrast;
-    -ms-interpolation-mode: nearest-neighbor;
-    image-rendering: crisp-edges;
-
     -webkit-tap-highlight-color: rgba(0,0,0,0);
     -webkit-tap-highlight-color: transparent;
 }

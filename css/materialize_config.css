@@ -76,8 +76,9 @@ input.no_border[type=text]:not(.browser-default):focus:not([readonly]),
 
 
 /*form*/
-input:not([type]), input[type=text]:not(.browser-default), input[type=password]:not(.browser-default), input[type=email]:not(.browser-default), input[type=url]:not(.browser-default), input[type=time]:not(.browser-default), input[type=date]:not(.browser-default), input[type=datetime]:not(.browser-default), input[type=datetime-local]:not(.browser-default), input[type=tel]:not(.browser-default), input[type=number]:not(.browser-default), input[type=search]:not(.browser-default){
-	height: 40px;
+input:not([type]):not(.hauto), input[type=text]:not(.browser-default):not(.hauto), input[type=password]:not(.browser-default):not(.hauto), input[type=email]:not(.browser-default):not(.hauto), input[type=url]:not(.browser-default):not(.hauto), input[type=time]:not(.browser-default):not(.hauto), input[type=date]:not(.browser-default):not(.hauto), input[type=datetime]:not(.browser-default):not(.hauto), input[type=datetime-local]:not(.browser-default):not(.hauto), input[type=tel]:not(.browser-default):not(.hauto), input[type=number]:not(.browser-default):not(.hauto), input[type=search]:not(.browser-default):not(.hauto), textarea.materialize-textarea:not(.hauto){
+	height: 3rem;
+	/*height: 40px;*/
 }
 textarea.materialize-textarea.hauto{ height: auto !important; }
 textarea.materialize-textarea{ padding: 0.8rem 0 0rem 0; }
