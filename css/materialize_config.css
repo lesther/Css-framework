@@ -54,38 +54,79 @@ input.no_border[type=text]:not(.browser-default):focus:not([readonly]),
 
 
 /*modals*/
-.modal.center_modal{
-    top: 50% !important;
-   -ms-transform: translateY(-50%) !important;
-   -webkit-transform: translateY(-50%) !important;
-   -moz-transform: translateY(-50%) !important;
-   -o-transform: translateY(-50%) !important;
-    transform: translateY(-50%) !important;
+/*center*/
+.center_modal{
+	height: 100% !important;
+    max-height: none !important;
+    top: 0 !important;
+    bottom: 0 !important;
+    background: rgba(255,255,255,0) !important;
+	-webkit-box-shadow: none !important;
+   -moz-box-shadow: none !important;
+    box-shadow: none !important;
+    overflow: visible;
+    font-size: 0;
+}
+.center_modal > .modal-content{
+	font-size: 1rem;
+	width: calc(100% - 5px);
+	vertical-align: middle;
+	display: inline-block;
+    -moz-box-shadow: 0 0 15rem 0rem rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 0 0 15rem 0rem rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 15rem 0rem rgba(0, 0, 0, 0.15);
+    background: #fff;
+    position: relative;
+    max-height: calc(100% - 5rem);
+    overflow: auto;
+}
+.center_modal:before{
+	content: "";
+	height: 100vh;
+	display: inline-block;
+	font-size: 1rem;
+	vertical-align: middle;
+}
+
+
+/*max-height*/
+.modal{
+	max-height: calc(100% - 4rem);
 	z-index: 10003 !important;
 	-moz-box-shadow:    0 0 15rem 0rem rgba(0, 0, 0, 0.15);
 	-webkit-box-shadow: 0 0 15rem 0rem rgba(0, 0, 0, 0.15);
 	box-shadow:         0 0 15rem 0rem rgba(0, 0, 0, 0.15);
 }
-.modal.center_modal + .modal-overlay{
-	z-index: 10002 !important;
+
+
+
+/*tabs*/
+.tabs .tab{
+	text-transform: none;
 }
-
-
+.tabs .indicator{
+	height: 1px;
+}
 
 
 
 
 /*form*/
-input:not([type]):not(.hauto), input[type=text]:not(.browser-default):not(.hauto), input[type=password]:not(.browser-default):not(.hauto), input[type=email]:not(.browser-default):not(.hauto), input[type=url]:not(.browser-default):not(.hauto), input[type=time]:not(.browser-default):not(.hauto), input[type=date]:not(.browser-default):not(.hauto), input[type=datetime]:not(.browser-default):not(.hauto), input[type=datetime-local]:not(.browser-default):not(.hauto), input[type=tel]:not(.browser-default):not(.hauto), input[type=number]:not(.browser-default):not(.hauto), input[type=search]:not(.browser-default):not(.hauto), textarea.materialize-textarea:not(.hauto){
-	height: 3rem;
-	/*height: 40px;*/
-}
-textarea.materialize-textarea.hauto{ height: auto !important; }
-textarea.materialize-textarea{ padding: 0.8rem 0 0rem 0; }
+textarea.materialize-textarea{ padding: 0.8rem 0 0.8rem 0; min-height: 0;}
 
 
 input.mar_0:not([type]), input.mar_0[type=text]:not(.browser-default), input.mar_0[type=password]:not(.browser-default), input.mar_0[type=email]:not(.browser-default), input.mar_0[type=url]:not(.browser-default), input.mar_0[type=time]:not(.browser-default), input.mar_0[type=date]:not(.browser-default), input.mar_0[type=datetime]:not(.browser-default), input.mar_0[type=datetime-local]:not(.browser-default), input.mar_0[type=tel]:not(.browser-default), input.mar_0[type=number]:not(.browser-default), input.mar_0[type=search]:not(.browser-default), textarea.mar_0.materialize-textarea{
 	margin: 0;
+}
+
+input:focus ~ label .visibility_hide_valid,
+input:focus ~ label.visibility_hide_valid,
+input.valid ~ label .visibility_hide_valid,
+input.valid ~ label.visibility_hide_valid{
+	visibility: hidden;
+	filter: alpha(opacity=0);
+	-moz-opacity: 0;
+	opacity: 0;
 }
 
 
@@ -110,6 +151,9 @@ input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):
 
 
 /*checkbox*/
+[type="checkbox"] + span[class*=absolute]:not(.lever){
+	position: absolute;
+}
 [type="checkbox"] + span:not(.lever):before, [type="checkbox"]:not(.filled-in) + span:not(.lever):after{
 	border-width: 1px;
 	width: 14px;
@@ -160,10 +204,10 @@ input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):
 	width: 14px;
 	height: 14px;
 }
+[type="radio"]:not(:checked) + span, [type="radio"]:checked + span,
 [type="radio"]:not(:checked) + span, [type="radio"]:checked + span.no_padding{
 	padding: 0;
 }
-
 
 
 
@@ -237,3 +281,19 @@ input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):
 .dropdown-content.whauto{ width: auto !important; height: auto !important; }
 .dropdown-content.wauto{ width: auto !important; }
 .dropdown-content.hauto{ height: auto !important; }
+
+
+/*tooltip*/
+.material-tooltip{
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	background: rgba(0,0,0,0.8);
+	/*box-sizing*/
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+	padding: 0.8rem 1rem;
+	line-height: 1rem;
+	min-height: 0;
+}

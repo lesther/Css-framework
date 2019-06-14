@@ -56,6 +56,7 @@ ol.list_p_outside{ list-style-position: outside; }
 .capitalize{ text-transform: capitalize; }
 .uppercase{ text-transform: uppercase; }
 .lowercase{ text-transform: lowercase; }
+.tt_none{ text-transform: none; }
 .italic{ font-style: italic; }
 .f_w_normal{ font-weight: normal; }
 .f_style_normal{ font-style: normal; }
@@ -1604,6 +1605,18 @@ html.full_h100p ,html.full_h100p body{ height: 100%; }
 .table_nowrap td.ws_pre,
 .ws_pre {
    white-space: pre;
+}
+
+.table_nowrap th.ws_pre_wrap,
+.table_nowrap td.ws_pre_wrap,
+.ws_pre_wrap {
+   white-space: pre-wrap;
+}
+
+.table_nowrap th.ws_pre_line,
+.table_nowrap td.ws_pre_line,
+.ws_pre_line {
+   white-space: pre-line;
 }
 
 .table_nowrap th.ws_nowrap,
