@@ -57,6 +57,13 @@ $(document).ready(function(){
 
 
 
+// tab
+$(document).ready(function(){
+	$('.tabs').tabs();
+});
+
+
+
 // autocomplete
 $(document).ready(function(){
 	$('input.autocomplete').autocomplete({

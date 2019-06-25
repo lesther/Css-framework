@@ -1,8 +1,12 @@
+.bck_inherit_checked_all[type="checkbox"]:checked .bck_inherit_checked,
+.bck_inherit_checked_next[type="checkbox"]:checked ~ .bck_inherit_checked,
 .bck_inherit_active_all.selected *[class*=bck_],
 .bck_inherit_active_all.active *[class*=bck_],
 .bck_inherit_hover_all:hover *[class*=bck_]{
 	background-color: inherit;
 }
+.c_inherit_checked_all[type="checkbox"]:checked .c_inherit_checked,
+.c_inherit_checked_next[type="checkbox"]:checked ~ .c_inherit_checked,
 .c_inherit_active_all.selected *[class*=bck_],
 .c_inherit_active_all.active *[class*=bck_],
 .c_inherit_hover_all:hover *[class*=bck_]{
@@ -28,6 +32,106 @@
 .bck_white_active.active,
 .bck_white_hover_all:hover .bck_white_hover{
 	background-color: #fff;
+}
+.bck_white_05p,
+.bck_white_05p_hover:hover,
+.bck_white_05p_active_all.selected .bck_white_05p_active,
+.bck_white_05p_active.selected,
+.bck_white_05p_active_all.active .bck_white_05p_active,
+.bck_white_05p_active.active,
+.bck_white_05p_hover_all:hover .bck_white_05p_hover{
+	background-color: rgba(255,255,255,0.05);
+}
+.bck_white_10p,
+.bck_white_10p_hover:hover,
+.bck_white_10p_active_all.selected .bck_white_10p_active,
+.bck_white_10p_active.selected,
+.bck_white_10p_active_all.active .bck_white_10p_active,
+.bck_white_10p_active.active,
+.bck_white_10p_hover_all:hover .bck_white_10p_hover{
+	background-color: rgba(255,255,255,0.1);
+}
+.bck_white_20p,
+.bck_white_20p_hover:hover,
+.bck_white_20p_active_all.selected .bck_white_20p_active,
+.bck_white_20p_active.selected,
+.bck_white_20p_active_all.active .bck_white_20p_active,
+.bck_white_20p_active.active,
+.bck_white_20p_hover_all:hover .bck_white_20p_hover{
+	background-color: rgba(255,255,255,0.2);
+}
+.bck_white_30p,
+.bck_white_30p_hover:hover,
+.bck_white_30p_active_all.selected .bck_white_30p_active,
+.bck_white_30p_active.selected,
+.bck_white_30p_active_all.active .bck_white_30p_active,
+.bck_white_30p_active.active,
+.bck_white_30p_hover_all:hover .bck_white_30p_hover{
+	background-color: rgba(255,255,255,0.3);
+}
+.bck_white_40p,
+.bck_white_40p_hover:hover,
+.bck_white_40p_active_all.selected .bck_white_40p_active,
+.bck_white_40p_active.selected,
+.bck_white_40p_active_all.active .bck_white_40p_active,
+.bck_white_40p_active.active,
+.bck_white_40p_hover_all:hover .bck_white_40p_hover{
+	background-color: rgba(255,255,255,0.4);
+}
+.bck_white_50p,
+.bck_white_50p_hover:hover,
+.bck_white_50p_active_all.selected .bck_white_50p_active,
+.bck_white_50p_active.selected,
+.bck_white_50p_active_all.active .bck_white_50p_active,
+.bck_white_50p_active.active,
+.bck_white_50p_hover_all:hover .bck_white_50p_hover{
+	background-color: rgba(255,255,255,0.5);
+}
+.bck_white_60p,
+.bck_white_60p_hover:hover,
+.bck_white_60p_active_all.selected .bck_white_60p_active,
+.bck_white_60p_active.selected,
+.bck_white_60p_active_all.active .bck_white_60p_active,
+.bck_white_60p_active.active,
+.bck_white_60p_hover_all:hover .bck_white_60p_hover{
+	background-color: rgba(255,255,255,0.6);
+}
+
+.bck_white_70p,
+.bck_white_70p_hover:hover,
+.bck_white_70p_active_all.selected .bck_white_70p_active,
+.bck_white_70p_active.selected,
+.bck_white_70p_active_all.active .bck_white_70p_active,
+.bck_white_70p_active.active,
+.bck_white_70p_hover_all:hover .bck_white_70p_hover{
+	background-color: rgba(255,255,255,0.7);
+}
+.bck_white_80p,
+.bck_white_80p_hover:hover,
+.bck_white_80p_active_all.selected .bck_white_80p_active,
+.bck_white_80p_active.selected,
+.bck_white_80p_active_all.active .bck_white_80p_active,
+.bck_white_80p_active.active,
+.bck_white_80p_hover_all:hover .bck_white_80p_hover{
+	background-color: rgba(255,255,255,0.8);
+}
+.bck_white_90p,
+.bck_white_90p_hover:hover,
+.bck_white_90p_active_all.selected .bck_white_90p_active,
+.bck_white_90p_active.selected,
+.bck_white_90p_active_all.active .bck_white_90p_active,
+.bck_white_90p_active.active,
+.bck_white_90p_hover_all:hover .bck_white_90p_hover{
+	background-color: rgba(255,255,255,0.9);
+}
+.bck_white_100p,
+.bck_white_100p_hover:hover,
+.bck_white_100p_active_all.selected .bck_white_100p_active,
+.bck_white_100p_active.selected,
+.bck_white_100p_active_all.active .bck_white_100p_active,
+.bck_white_100p_active.active,
+.bck_white_100p_hover_all:hover .bck_white_100p_hover{
+	background-color: rgba(255,255,255,1);
 }
 .bck_black,
 .bck_black_hover:hover,
@@ -177,6 +281,106 @@
 .c_white_hover_all:hover .c_white_hover{
 	color: #fff;
 }
+.c_white_05p,
+.c_white_05p_hover:hover,
+.c_white_05p_active_all.selected .c_white_05p_active,
+.c_white_05p_active.selected,
+.c_white_05p_active_all.active .c_white_05p_active,
+.c_white_05p_active.active,
+.c_white_05p_hover_all:hover .c_white_05p_hover{
+	color: rgba(255,255,255,0.05);
+}
+.c_white_10p,
+.c_white_10p_hover:hover,
+.c_white_10p_active_all.selected .c_white_10p_active,
+.c_white_10p_active.selected,
+.c_white_10p_active_all.active .c_white_10p_active,
+.c_white_10p_active.active,
+.c_white_10p_hover_all:hover .c_white_10p_hover{
+	color: rgba(255,255,255,0.1);
+}
+.c_white_20p,
+.c_white_20p_hover:hover,
+.c_white_20p_active_all.selected .c_white_20p_active,
+.c_white_20p_active.selected,
+.c_white_20p_active_all.active .c_white_20p_active,
+.c_white_20p_active.active,
+.c_white_20p_hover_all:hover .c_white_20p_hover{
+	color: rgba(255,255,255,0.2);
+}
+.c_white_30p,
+.c_white_30p_hover:hover,
+.c_white_30p_active_all.selected .c_white_30p_active,
+.c_white_30p_active.selected,
+.c_white_30p_active_all.active .c_white_30p_active,
+.c_white_30p_active.active,
+.c_white_30p_hover_all:hover .c_white_30p_hover{
+	color: rgba(255,255,255,0.3);
+}
+.c_white_40p,
+.c_white_40p_hover:hover,
+.c_white_40p_active_all.selected .c_white_40p_active,
+.c_white_40p_active.selected,
+.c_white_40p_active_all.active .c_white_40p_active,
+.c_white_40p_active.active,
+.c_white_40p_hover_all:hover .c_white_40p_hover{
+	color: rgba(255,255,255,0.4);
+}
+.c_white_50p,
+.c_white_50p_hover:hover,
+.c_white_50p_active_all.selected .c_white_50p_active,
+.c_white_50p_active.selected,
+.c_white_50p_active_all.active .c_white_50p_active,
+.c_white_50p_active.active,
+.c_white_50p_hover_all:hover .c_white_50p_hover{
+	color: rgba(255,255,255,0.5);
+}
+.c_white_60p,
+.c_white_60p_hover:hover,
+.c_white_60p_active_all.selected .c_white_60p_active,
+.c_white_60p_active.selected,
+.c_white_60p_active_all.active .c_white_60p_active,
+.c_white_60p_active.active,
+.c_white_60p_hover_all:hover .c_white_60p_hover{
+	color: rgba(255,255,255,0.6);
+}
+
+.c_white_70p,
+.c_white_70p_hover:hover,
+.c_white_70p_active_all.selected .c_white_70p_active,
+.c_white_70p_active.selected,
+.c_white_70p_active_all.active .c_white_70p_active,
+.c_white_70p_active.active,
+.c_white_70p_hover_all:hover .c_white_70p_hover{
+	color: rgba(255,255,255,0.7);
+}
+.c_white_80p,
+.c_white_80p_hover:hover,
+.c_white_80p_active_all.selected .c_white_80p_active,
+.c_white_80p_active.selected,
+.c_white_80p_active_all.active .c_white_80p_active,
+.c_white_80p_active.active,
+.c_white_80p_hover_all:hover .c_white_80p_hover{
+	color: rgba(255,255,255,0.8);
+}
+.c_white_90p,
+.c_white_90p_hover:hover,
+.c_white_90p_active_all.selected .c_white_90p_active,
+.c_white_90p_active.selected,
+.c_white_90p_active_all.active .c_white_90p_active,
+.c_white_90p_active.active,
+.c_white_90p_hover_all:hover .c_white_90p_hover{
+	color: rgba(255,255,255,0.9);
+}
+.c_white_100p,
+.c_white_100p_hover:hover,
+.c_white_100p_active_all.selected .c_white_100p_active,
+.c_white_100p_active.selected,
+.c_white_100p_active_all.active .c_white_100p_active,
+.c_white_100p_active.active,
+.c_white_100p_hover_all:hover .c_white_100p_hover{
+	color: rgba(255,255,255,1);
+}
 .c_black,
 .c_black_hover:hover,
 .c_black_active_all.selected .c_black_active,
@@ -323,6 +527,106 @@
 .border_white_active.active,
 .border_white_hover_all:hover .border_white_hover{
 	border-color: #fff;
+}
+.border_white_05p,
+.border_white_05p_hover:hover,
+.border_white_05p_active_all.selected .border_white_05p_active,
+.border_white_05p_active.selected,
+.border_white_05p_active_all.active .border_white_05p_active,
+.border_white_05p_active.active,
+.border_white_05p_hover_all:hover .border_white_05p_hover{
+	border-color: rgba(255,255,255,0.05);
+}
+.border_white_10p,
+.border_white_10p_hover:hover,
+.border_white_10p_active_all.selected .border_white_10p_active,
+.border_white_10p_active.selected,
+.border_white_10p_active_all.active .border_white_10p_active,
+.border_white_10p_active.active,
+.border_white_10p_hover_all:hover .border_white_10p_hover{
+	border-color: rgba(255,255,255,0.1);
+}
+.border_white_20p,
+.border_white_20p_hover:hover,
+.border_white_20p_active_all.selected .border_white_20p_active,
+.border_white_20p_active.selected,
+.border_white_20p_active_all.active .border_white_20p_active,
+.border_white_20p_active.active,
+.border_white_20p_hover_all:hover .border_white_20p_hover{
+	border-color: rgba(255,255,255,0.2);
+}
+.border_white_30p,
+.border_white_30p_hover:hover,
+.border_white_30p_active_all.selected .border_white_30p_active,
+.border_white_30p_active.selected,
+.border_white_30p_active_all.active .border_white_30p_active,
+.border_white_30p_active.active,
+.border_white_30p_hover_all:hover .border_white_30p_hover{
+	border-color: rgba(255,255,255,0.3);
+}
+.border_white_40p,
+.border_white_40p_hover:hover,
+.border_white_40p_active_all.selected .border_white_40p_active,
+.border_white_40p_active.selected,
+.border_white_40p_active_all.active .border_white_40p_active,
+.border_white_40p_active.active,
+.border_white_40p_hover_all:hover .border_white_40p_hover{
+	border-color: rgba(255,255,255,0.4);
+}
+.border_white_50p,
+.border_white_50p_hover:hover,
+.border_white_50p_active_all.selected .border_white_50p_active,
+.border_white_50p_active.selected,
+.border_white_50p_active_all.active .border_white_50p_active,
+.border_white_50p_active.active,
+.border_white_50p_hover_all:hover .border_white_50p_hover{
+	border-color: rgba(255,255,255,0.5);
+}
+.border_white_60p,
+.border_white_60p_hover:hover,
+.border_white_60p_active_all.selected .border_white_60p_active,
+.border_white_60p_active.selected,
+.border_white_60p_active_all.active .border_white_60p_active,
+.border_white_60p_active.active,
+.border_white_60p_hover_all:hover .border_white_60p_hover{
+	border-color: rgba(255,255,255,0.6);
+}
+
+.border_white_70p,
+.border_white_70p_hover:hover,
+.border_white_70p_active_all.selected .border_white_70p_active,
+.border_white_70p_active.selected,
+.border_white_70p_active_all.active .border_white_70p_active,
+.border_white_70p_active.active,
+.border_white_70p_hover_all:hover .border_white_70p_hover{
+	border-color: rgba(255,255,255,0.7);
+}
+.border_white_80p,
+.border_white_80p_hover:hover,
+.border_white_80p_active_all.selected .border_white_80p_active,
+.border_white_80p_active.selected,
+.border_white_80p_active_all.active .border_white_80p_active,
+.border_white_80p_active.active,
+.border_white_80p_hover_all:hover .border_white_80p_hover{
+	border-color: rgba(255,255,255,0.8);
+}
+.border_white_90p,
+.border_white_90p_hover:hover,
+.border_white_90p_active_all.selected .border_white_90p_active,
+.border_white_90p_active.selected,
+.border_white_90p_active_all.active .border_white_90p_active,
+.border_white_90p_active.active,
+.border_white_90p_hover_all:hover .border_white_90p_hover{
+	border-color: rgba(255,255,255,0.9);
+}
+.border_white_100p,
+.border_white_100p_hover:hover,
+.border_white_100p_active_all.selected .border_white_100p_active,
+.border_white_100p_active.selected,
+.border_white_100p_active_all.active .border_white_100p_active,
+.border_white_100p_active.active,
+.border_white_100p_hover_all:hover .border_white_100p_hover{
+	border-color: rgba(255,255,255,1);
 }
 .border_black,
 .border_black_hover:hover,

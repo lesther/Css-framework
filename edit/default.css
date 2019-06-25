@@ -999,6 +999,17 @@ ol.list_p_outside{ list-style-position: outside; }
 .h95p{ height: 95%; }
 .h100p{ height: 100%; }
 
+/*transition width*/
+.w100p_hover:hover,
+.w100p_active_all.selected .w100p_active,
+.w100p_active.selected,
+.w100p_active_all.active .w100p_active,
+.w100p_active.active,
+.w100p_hover_all:hover .w100p_hover{
+    width: 100%;
+}
+
+
 
 /*base * altura*/
 /*%*/
@@ -1089,6 +1100,9 @@ ol.list_p_outside{ list-style-position: outside; }
 .w100p-100{ width: calc(100% - 100rem); }
 /*special*/
 .w100p-1px{ width: calc(100% - 1px); }
+/*vh*/
+.w100vh{ width: 100vh; }
+
 /*height*/
 .h100p-5{ height: calc(100% - 5rem); }
 .h100p-10{ height: calc(100% - 10rem); }
@@ -1107,6 +1121,8 @@ ol.list_p_outside{ list-style-position: outside; }
 .h100p-100{ height: calc(100% - 100rem); }
 /*special*/
 .h100p-1px{ height: calc(100% - 1px); }
+/*vh*/
+.h100vh{ height: 100vh; }
 
 /*max*/
 /*height*/
@@ -1138,6 +1154,10 @@ ol.list_p_outside{ list-style-position: outside; }
 .max_h200{ max-height: 200rem; }
 /*%*/
 .max_h100p{ max-height: 100%; }
+/*vh*/
+.min_h100vh{ max-height: 100vh; }
+
+
 /*width*/
 .max_wnone{ max-width: initial; }
 .max_w1{ max-width: 1rem; }
@@ -1167,6 +1187,9 @@ ol.list_p_outside{ list-style-position: outside; }
 .max_w200{ max-width: 200rem; }
 /*%*/
 .max_w100p{ max-width: 100%; }
+/*vh*/
+.min_w100vh{ max-width: 100vh; }
+
 
 /*min*/
 /*height*/
@@ -1196,6 +1219,8 @@ ol.list_p_outside{ list-style-position: outside; }
 .min_h95{ min-height: 95rem; }
 .min_h100{ min-height: 100rem; }
 .min_h200{ min-height: 200rem; }
+/*vh*/
+.min_h100vh{ min-height: 100vh; }
 
 /*width*/
 .min_wnone{ min-width: initial; }
@@ -1224,6 +1249,8 @@ ol.list_p_outside{ list-style-position: outside; }
 .min_w95{ min-width: 95rem; }
 .min_w100{ min-width: 100rem; }
 .min_w200{ min-width: 200rem; }
+/*vh*/
+.min_w100vh{ min-width: 100vh; }
 
 
 

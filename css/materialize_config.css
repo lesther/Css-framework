@@ -18,15 +18,38 @@ button, input, optgroup, select, textarea{ font-family: inherit; }
 .margin_b_0.input-field{ margin-bottom:0; }
 .margin_0.input-field{ margin:0; }
 /*border*/
+textarea.border_none[type=text]:not(.browser-default):focus:not([readonly]),
+.input-field textarea.border_none:focus,
+.input-field textarea.border_none.valid,
+.input-field textarea.border_none,
+
 textarea.no_border[type=text]:not(.browser-default):focus:not([readonly]),
 .input-field textarea.no_border:focus,
 .input-field textarea.no_border.valid,
 .input-field textarea.no_border,
 
+input.border_none[type=text]:not(.browser-default):focus:not([readonly]),
+.input-field input.border_none:focus,
+.input-field input.border_none.valid,
+.input-field input.border_none,
+
 input.no_border[type=text]:not(.browser-default):focus:not([readonly]),
 .input-field input.no_border:focus,
 .input-field input.no_border.valid,
-.input-field input.no_border{ border: 0 !important; }
+.input-field input.no_border
+{ border: 0 !important; }
+
+
+
+/*helpertext*/
+.input-field .invalid ~ .helper-text{
+	min-height: 1.5rem;
+}
+.input-field .helper-text{
+	min-height: 0;
+}
+
+
 
 
 
@@ -122,7 +145,11 @@ input.mar_0:not([type]), input.mar_0[type=text]:not(.browser-default), input.mar
 input:focus ~ label .visibility_hide_valid,
 input:focus ~ label.visibility_hide_valid,
 input.valid ~ label .visibility_hide_valid,
-input.valid ~ label.visibility_hide_valid{
+input.valid ~ label.visibility_hide_valid,
+
+input ~ label.active  .visibility_hide_valid,
+input ~ label.active.visibility_hide_valid
+{
 	visibility: hidden;
 	filter: alpha(opacity=0);
 	-moz-opacity: 0;
@@ -161,9 +188,14 @@ input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):
 }
 [type="checkbox"]:checked + span:not(.lever):before{
 	width: 7px;
-    height: 13px;
+    height: 14px;
     top: 0;
-    left: 0;
+    /*left: 0;*/
+    /*rotation*/
+    -webkit-transform: rotate(40deg) translateX(3px) translateY(-3px);
+    -moz-transform: rotate(40deg) translateX(3px) translateY(-3px);
+    -ms-transform: rotate(40deg) translateX(3px) translateY(-3px);
+    -o-transform: rotate(40deg) translateX(3px) translateY(-3px);
 }
 [type="checkbox"] + span:not(.lever):before, [type="checkbox"]:not(.filled-in) + span:not(.lever):after{
     top: 0;
