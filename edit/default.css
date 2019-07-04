@@ -704,6 +704,7 @@ ol.list_p_outside{ list-style-position: outside; }
 
 
 /*top*/
+.mar_t_auto{ margin-top: auto; }
 .mar_t_0{ margin-top: 0rem; }
 .mar_t_01{ margin-top: 0.1rem; }
 .mar_t_02{ margin-top: 0.2rem; }
@@ -731,6 +732,7 @@ ol.list_p_outside{ list-style-position: outside; }
 
 
 /*bottom*/
+.mar_b_auto{ margin-bottom: auto; }
 .mar_b_0{ margin-bottom: 0rem; }
 .mar_b_05{ margin-bottom: 0.5rem; }
 .mar_b_1{ margin-bottom: 1rem; }
@@ -754,6 +756,7 @@ ol.list_p_outside{ list-style-position: outside; }
 
 
 /*left*/
+.mar_l_auto{ margin-left: auto; }
 .mar_l_0{ margin-left: 0rem; }
 .mar_l_05{ margin-left: 0.5rem; }
 .mar_l_1{ margin-left: 1rem; }
@@ -777,6 +780,7 @@ ol.list_p_outside{ list-style-position: outside; }
 
 
 /*right*/
+.mar_r_auto{ margin-right: auto; }
 .mar_r_0{ margin-right: 0rem; }
 .mar_r_05{ margin-right: 0.5rem; }
 .mar_r_1{ margin-right: 1rem; }
@@ -1127,6 +1131,7 @@ ol.list_p_outside{ list-style-position: outside; }
 /*max*/
 /*height*/
 .max_hnone{ max-height: initial; }
+.max_h0{ max-height: 0; }
 .max_h1{ max-height: 1rem; }
 .max_h2{ max-height: 2rem; }
 .max_h3{ max-height: 3rem; }
@@ -1160,6 +1165,7 @@ ol.list_p_outside{ list-style-position: outside; }
 
 /*width*/
 .max_wnone{ max-width: initial; }
+.max_w0{ max-width: 0; }
 .max_w1{ max-width: 1rem; }
 .max_w2{ max-width: 2rem; }
 .max_w3{ max-width: 3rem; }
