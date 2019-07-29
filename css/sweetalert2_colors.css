@@ -1,0 +1,134 @@
+/*container*/
+.swal2-popup{
+    background: #fff;
+}
+
+/*textbody*/
+.swal2-popup .swal2-content{
+    color: rgba(0,0,0,0.5);
+}
+
+/*shadow*/
+.swal2-popup {
+    -moz-box-shadow: 0 0 15rem 0rem rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 0 0 15rem 0rem rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 15rem 0rem rgba(0, 0, 0, 0.15);
+}
+
+
+
+/*icon colors default*/
+/*warning*/
+.swal2-icon.swal2-warning {
+    color: #ff9800;
+    border-color: #ff9800;
+}
+
+/*success*/
+.swal2-icon.swal2-success {
+    border-color: #1b9d17;
+    color: #1b9d17;
+}
+/*success ring*/
+.swal2-icon.swal2-success .swal2-success-ring{
+    border-color: rgba(27, 157, 23, 0.4);
+}
+.swal2-icon.swal2-success [class^='swal2-success-line']{
+    background-color: #1b9d17;
+}
+
+/*info*/
+.swal2-icon.swal2-info {
+    border-color: #3399ff;
+    color: #3399ff;
+}
+
+/*question*/
+.swal2-icon.swal2-question {
+    border-color: #c076dc;
+    color: #c076dc;
+}
+
+/*error*/
+.swal2-icon.swal2-error [class^='swal2-x-mark-line']{
+    background-color: #f27474;
+}
+.swal2-icon.swal2-error {
+    border-color: #f27474;
+}
+
+
+
+
+
+
+/*cancel*/
+/*style*/
+.swal2-cancel.swal2-styled {
+    background: transparent !important;
+    color: #b4b4b4 !important;
+    border: 0 !important;
+}
+/*hover*/
+.swal2-cancel.swal2-styled:hover {
+    color: #3399ff !important;
+    background: rgba(51,153,255,0.1) !important;
+}
+
+
+
+
+
+/*confirm*/
+/*style*/
+.swal2-confirm.swal2-styled {
+    border: 1px solid rgba(51,153,255,0.4) !important;
+    background: rgba(51,153,255,0.1) !important;
+    color: #3399ff !important;
+}
+/*hover*/
+.swal2-confirm.swal2-styled:hover {
+    background: rgba(51,153,255,1) !important;
+    color: #fff !important;
+}
+.swal2-confirm.swal2-styled[style*="flex"] {
+    color: transparent !important;
+    background: rgba(51,153,255,0) !important;
+    border-bottom-color: rgba(51,153,255,0) !important;
+    border-top-color: rgba(51,153,255,0) !important;
+}
+
+
+
+
+
+
+
+/*title*/
+.swal2-header .swal2-title{
+    color: #3399ff !important;
+    border-bottom: 1px solid #dcdcdc !important;
+}
+
+
+
+
+
+
+/*icons loading - button section*/
+.swal2-loading .swal2-confirm:hover,
+.swal2-loading .swal2-confirm {
+    border-left: 2px solid rgba(51,153,255,1) !important;
+    border-right: 2px solid rgba(51,153,255,1) !important;
+}
+
+
+
+
+
+
+
+/*overlay*/
+.swal2-container.swal2-shown {
+    background-color: rgba(255, 255, 255, 0.5);
+}
